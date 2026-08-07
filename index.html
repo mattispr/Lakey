@@ -23,7 +23,7 @@
      position: fixed;
      inset: 0;
 
-     background-image: url('barrel.jpg');
+     background-image: url('barrel-desktop.jpg');
      background-size: cover;
      background-position: center 25%;
      background-repeat: no-repeat;
@@ -75,10 +75,10 @@
     font-weight: 700;
     color: #ffffff;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 768px) and (orientation: portrait) {
       body::before {
-         background-size: contain;
-         background-color: #000;
+          background-image: url("barrel-mobile.jpg");
+    
   }
 </style>
 </head>
